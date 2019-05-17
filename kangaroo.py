@@ -1,0 +1,18 @@
+x=int(input("enter"))
+y=int(input("enter"))
+v1=int(input("enter"))
+v2=int(input("enter"))
+while(True):
+    if(y>x):
+        if(v2>v1):
+          print("no")
+          break
+    if(x>y):
+        if(v1>v2):
+            print("no")
+            break
+    if(x==y):
+        print("yes")
+        break
+    x+=v1
+    y+=v2
